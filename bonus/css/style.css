@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+#premessa {
+    color: white;
+    margin: auto;
+}
+
+.box,
+.box-black,
+.box-white,
+.box-magenta,
+.box-pink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 1rem;
+}
+
+.box {
+    color: white;
+    background-color: #ffde59;
+}
+
+.box-black {
+    color: white;
+    background-color: black;
+}
+
+.box-white {
+    color: #ecec38;
+    background-color: white;
+}
+
+.box-magenta {
+    color: white;
+    background-color: #871a43;
+}
+
+.box-pink {
+    color: white;
+    background-color: #fbbcdf;
+}
+
+.bord-r {
+    border-right: 30px solid black;
+}
+
+.bord-l {
+    border-left: 30px solid black;
+}
+
+.bord-sr {
+    border-right: 10px solid black;
+}
+
+.bord-sl {
+    border-left: 10px solid black;
+}
+
+.bord-st {
+    border-top: 10px solid black;
+}
+
+.bord-sb {
+    border-bottom: 10px solid black;
+}
+
+.bord-lr {
+    border-right: 30px solid black;
+    border-left: 30px solid black;
+}
