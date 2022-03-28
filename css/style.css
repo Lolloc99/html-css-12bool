@@ -17,9 +17,10 @@
     border: 1px solid #006cfa;
 }
 
-
-
-
+.row {
+    justify-content: center;
+    align-items: center;
+}
 /*
 Colori:
 blu #006cfa
